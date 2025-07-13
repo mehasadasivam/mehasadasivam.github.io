@@ -1,6 +1,0 @@
-body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fafafa; color:#222; }
-header { background:#333; color:#fff; padding:1.5rem; text-align:center; }
-nav a { color:#fff; margin:0 1rem; text-decoration:none; }
-main { max-width:700px; margin:2rem auto; padding:1rem; background:#fff; }
-.profile { max-width:180px; border-radius:50%; display:block; margin:1rem auto; }
-footer { background:#eee; text-align:center; padding:1rem; margin-top:2rem; }
