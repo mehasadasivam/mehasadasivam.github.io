@@ -13,7 +13,9 @@ institute_logo: ""
 institute_url: "https://www8.gsb.columbia.edu/"
 google_analytics: G-9GSZBXKNFD
 markdown: kramdown
-theme: academic-minima
+remote_theme: academicbio/academic-minima
+plugins:
+  - jekyll-remote-theme
 exclude:
   - Gemfile
   - Gemfile.lock 
