@@ -37,6 +37,12 @@ hr, .working-papers-section {
 // font-family: 'Baskerville', serif; 
 
 // Responsive adjustments for mobile devices
+.cv-download-link {
+  display: none;
+  text-align: center;
+  margin: 2rem 0;
+}
+
 @media (max-width: 600px) {
   .profile-picture {
     width: 100% !important;
@@ -50,6 +56,13 @@ hr, .working-papers-section {
     flex-direction: column !important;
     gap: 1.5rem !important;
     align-items: flex-start !important;
+  }
+
+  .cv-pdf-embed object[type="application/pdf"] {
+    display: none !important;
+  }
+  .cv-download-link {
+    display: block;
   }
 
   object[type="application/pdf"] {
