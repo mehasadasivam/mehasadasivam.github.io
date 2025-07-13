@@ -35,3 +35,20 @@ hr, .working-papers-section {
 // font-family: 'Palatino', serif;
 // font-family: 'Garamond', serif;
 // font-family: 'Baskerville', serif; 
+
+// Responsive adjustments for mobile devices
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 100% !important;
+    max-width: 260px;
+    height: auto !important;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  div[style*="display: flex"][style*="align-items: center"] {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    align-items: flex-start !important;
+  }
+} 
