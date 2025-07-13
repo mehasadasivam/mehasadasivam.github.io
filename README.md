@@ -1,58 +1,35 @@
-# academic-minima
+# Meha Sadasivam - Personal Website
 
-*Academic-Minima is a Jekyll theme for academics*. It is based on Jekyll's default theme but has been tweaked to be more appropriate for a personal academic website.
+This is the source code for my personal academic website hosted at [mehasadasivam.github.io](https://mehasadasivam.github.io).
 
-![academic-minima theme preview](/screenshot.png)
+## About
 
-## Installation
+I am a PhD student in Finance at Columbia Business School. My research interests are in climate finance, public finance, investments and corporate finance.
 
-Add this line to your Jekyll site's Gemfile:
+## Website Structure
 
-```ruby
-gem "academic-minima", git: "https://github.com/academicbio/academic-minima.git"
-```
+- **Homepage**: Personal introduction and working papers
+- **CV**: Academic curriculum vitae
+- **Contact**: Email and social media links
 
-And add this line to your Jekyll site:
+## Technology
 
-```yaml
-theme: academic-minima
-```
+This website is built using:
+- [Jekyll](https://jekyllrb.com/) - Static site generator
+- [Academic Minima](https://github.com/academicbio/academic-minima) - Jekyll theme for academics
+- GitHub Pages - Hosting platform
 
-And then execute:
+## Local Development
 
-    $ bundle
-    
-Then add a `css/main.scss` file based on the following template, don't forget to include the frontmatter:
+To run this website locally:
 
-```css
----
----
+1. Install Ruby and Jekyll
+2. Run `bundle install` to install dependencies
+3. Run `bundle exec jekyll serve` to start the local server
+4. Visit `http://localhost:4000` in your browser
 
-@import "academic-minima";
-```
+## Contact
 
-You can choose to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path.
-
-## Enabling Google Analytics
-
-To enable Google Anaytics, add the following lines to your Jekyll site:
-
-```yaml
-  google_analytics: UA-NNNNNNNN-N
-```
-
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/jpallen/academic-minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-To test your theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents of the `example/` directory. As you make modifications to your theme and to the example site, your site will regenerate and you should see the changes in the browser after a refresh.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+- Email: ms5941@gsb.columbia.edu
+- GitHub: [@mehasadasivam](https://github.com/mehasadasivam)
+- LinkedIn: [mehasadasivam](https://linkedin.com/in/mehasadasivam) 
