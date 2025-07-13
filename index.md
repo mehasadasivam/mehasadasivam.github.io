@@ -28,12 +28,12 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="color: #1565c0; text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
-    <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
-  </li>
-  <li style="margin-bottom: 1.5rem;">
     <span style="font-weight: bold; font-size: 1rem;">Extreme Weather and Risk Perception</span><br>
     <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
+  </li>
+  <li style="margin-bottom: 1.5rem;">
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="color: #1565c0; text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
+    <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
     <span style="font-weight: bold; font-size: 1rem;">Where does the mortgage climate risk go?</span><br>
