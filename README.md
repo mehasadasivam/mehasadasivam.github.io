@@ -2,10 +2,6 @@
 
 This is the source code for my personal academic website hosted at [mehasadasivam.github.io](https://mehasadasivam.github.io).
 
-## About
-
-I am a PhD student in Finance at Columbia Business School. My research interests are in climate finance, public finance, investments and corporate finance.
-
 ## Website Structure
 
 - **Homepage**: Personal introduction and working papers
