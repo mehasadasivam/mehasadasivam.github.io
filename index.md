@@ -28,11 +28,11 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;">Extreme Weather and Risk Perception</span><br>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/593oynw2yvu1rm02lmd1t/beliefs_draft_june_2025.pdf?rlkey=kfmgt2uq0o5wtdk4rgt1i80ey&st=igwf1jhi&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
     <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="color: #1565c0; text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
     <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
