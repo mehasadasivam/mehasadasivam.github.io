@@ -51,4 +51,12 @@ hr, .working-papers-section {
     gap: 1.5rem !important;
     align-items: flex-start !important;
   }
+
+  object[type="application/pdf"] {
+    width: 100% !important;
+    height: 70vh !important;
+    min-height: 400px;
+    max-width: 100vw;
+    display: block;
+  }
 } 
