@@ -1,0 +1,20 @@
+title: Meha Sadasivam
+author: Meha Sadasivam
+email: ms5941@gsb.columbia.edu
+description: >
+  Minimalist academic website for a fourth year PhD student in Finance at Columbia Business School.
+baseurl: ""
+github_username: mehasadasivam
+twitter_username: mehasadasivam
+linkedin_username: mehasadasivam
+profile_picture: images/profile.jpg
+institute_name: Columbia Business School
+institute_logo: ""
+institute_url: "https://www8.gsb.columbia.edu/"
+google_analytics: G-9GSZBXKNFD
+markdown: kramdown
+theme: academic-minima
+exclude:
+  - Gemfile
+  - Gemfile.lock 
+  - vendor 

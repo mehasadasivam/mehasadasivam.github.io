@@ -1,0 +1,37 @@
+---
+---
+
+@import "academic-minima";
+
+// Custom font styling
+body {
+  font-family: 'Georgia', serif; // Original font
+  scroll-behavior: smooth; // Enable smooth scrolling
+}
+
+// Profile picture styling
+.profile-picture {
+  border: 1px solid #ccc !important; // Thinner border
+  border-radius: 0 !important; // No rounded corners
+}
+
+// Add gap above the horizontal rule and working papers section
+hr, .working-papers-section {
+  margin-top: 2.5rem;
+}
+
+// Decrease font size for working papers heading and list
+.working-papers-section h3, .working-papers-section {
+  font-size: 1.1rem;
+}
+.working-papers-section ul, .working-papers-section li {
+  font-size: 1rem;
+}
+
+// Alternative fonts you can try:
+// font-family: 'Times New Roman', serif;
+// font-family: 'Arial', sans-serif;
+// font-family: 'Helvetica', sans-serif;
+// font-family: 'Palatino', serif;
+// font-family: 'Garamond', serif;
+// font-family: 'Baskerville', serif; 
