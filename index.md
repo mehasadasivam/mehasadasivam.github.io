@@ -28,7 +28,7 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/83zulq3wuamqyiu5bjhcy/beliefs_draft_june_2025.pdf?rlkey=egfcmkalc8e01xvo6se3zvvw2&st=wzx86v0k&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
     <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
