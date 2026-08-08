@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div style="display: flex; align-items: center; gap: 40px; margin-bottom: 3rem;">
-  <img src="images/profile.jpg" alt="Profile picture" class="profile-picture" style="width: 260px; height: 260px; object-fit: cover; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 2px solid #eee;" />
+  <img src="images/profile.jpg" alt="Profile picture" class="profile-picture" width="520" height="520" style="width: 260px; height: 260px; object-fit: cover; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 2px solid #eee;" />
   <div>
     <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Welcome! I am a PhD student in Finance at Columbia Business School. My research interests are in climate finance, public finance, investments and corporate finance.</div>
     <div style="display: flex; align-items: center; gap: 18px; font-size: 1rem;">
@@ -28,11 +28,22 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
+    <span style="font-size: 1rem;">The Limits of Local Adaptation</span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span>
+  </li>
+  <li style="margin-bottom: 1.5rem;">
     <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
     <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
     <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
     <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
+  </li>
+</ul>
+
+#### <span id="wip" style="font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem;">Work in Progress</span>
+<ul style="margin-top: 2rem; margin-bottom: 2rem;">
+  <li style="margin-bottom: 1.5rem;">
+    <span style="font-size: 1rem;">Climate Risk Transfer?</span><br>
+    <span style="color: #444;">with Jack McCoy</span>
   </li>
 </ul>
