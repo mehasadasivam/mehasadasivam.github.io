@@ -31,12 +31,12 @@ layout: home
     <span style="font-size: 1rem;">The Limits of Local Adaptation</span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span>
   </li>
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
-    <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
-  </li>
-  <li style="margin-bottom: 1.5rem;">
     <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
     <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
+  </li>
+  <li style="margin-bottom: 1.5rem;">
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
+    <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
   </li>
 </ul>
 
