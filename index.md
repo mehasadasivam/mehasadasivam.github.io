@@ -2,10 +2,20 @@
 layout: home
 ---
 
+<style>
+  details.abstract summary { list-style: none; }
+  details.abstract summary::-webkit-details-marker { display: none; }
+  details.abstract summary::before { content: ">"; display: inline-block; margin-right: 0.4rem; transition: transform 0.15s ease; }
+  details.abstract[open] summary::before { transform: rotate(90deg); }
+  .paper-date { color: #777; font-size: 0.9rem; }
+</style>
+
 <div style="display: flex; align-items: center; gap: 40px; margin-bottom: 3rem;">
   <img src="images/profile.jpg" alt="Profile picture" class="profile-picture" width="520" height="520" style="width: 260px; height: 260px; object-fit: cover; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border: 2px solid #eee;" />
   <div>
     <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Welcome! I am a PhD student in Finance at Columbia Business School. My research interests are in climate finance, public finance, investments and corporate finance.</div>
+    <div style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1.2rem;">I am on the 2026-27 academic job market.</div>
+    <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Previously, I was a software engineer at DE Shaw. I hold an MS in Financial Economics from Columbia and a BE in Electrical Engineering from BITS Pilani, Hyderabad.</div>
     <div style="display: flex; align-items: center; gap: 18px; font-size: 1rem;">
       <span>Email: <a href="mailto:ms5941@gsb.columbia.edu">ms5941@gsb.columbia.edu</a></span>
       {% if site.github_username %}
@@ -28,15 +38,27 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-size: 1rem;">The Limits of Local Adaptation</span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span>
+    <span style="font-size: 1rem;">The Financing Limits of Local Adaptation</span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span><br>
+    <details class="abstract" style="margin-top: 0.4rem;">
+      <summary style="cursor: pointer; color: #555; font-size: 0.9rem;">Abstract</summary>
+      <p style="font-size: 0.92rem; color: #444; line-height: 1.55; margin: 0.5rem 0 0 0;">What are the returns to investment in flood protection, and how does the financing structure shape its provision? Studying Louisiana's levee districts, I use a boundary discontinuity difference-in-difference specification around the passage of levee taxes to estimate these returns. Property values inside the district rise about 32% on average, and increases by 3% per additional foot below the levee: the lower the elevation, the larger the gain. The gains reflect demand for protection: occupancy increases more in high exposure areas. The tax burden is very small relative to these gains, yet referenda often fail, revealing a key financing friction in the provision of this local public good: under uniform taxation, the median voter is often not the average beneficiary, so positive-NPV levee investments can be systematically rejected. I develop a spatial model with heterogeneous flood risk and risk-reduction investments to quantify the welfare cost of this friction and evaluate the limits of local adaptation.</p>
+    </details>
   </li>
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="text-decoration: underline;">Different Shades of ESG Funds</a></span><br>
-    <span style="color: #444;">with Simona Abis and Andrea Buffa</span>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4989923" style="text-decoration: underline;">Different Shades of ESG Funds</a></span> <span class="paper-date">(June 2026)</span><br>
+    <span style="color: #444;">with Simona Abis and Andrea Buffa</span><br>
+    <details class="abstract" style="margin-top: 0.4rem;">
+      <summary style="cursor: pointer; color: #555; font-size: 0.9rem;">Abstract</summary>
+      <p style="font-size: 0.92rem; color: #444; line-height: 1.55; margin: 0.5rem 0 0 0;">We classify US active equity mutual funds by the objective for which they use ESG information. Impact funds, incorporating non-pecuniary ESG preferences, manage under 5% of ESG assets; the remainder is overwhelmingly held by opportunity funds using ESG data for financial gain. Opportunity funds tilt only on financially material ESG dimensions and inflate their ESG exposure before disclosure dates. Impact funds, instead, tilt toward firms generating positive impact, show no greenwashing or window dressing, avoid firms committing ESG violations, and use shareholder voice to advocate for better environmental and social outcomes. ESG funds cannot be treated as a monolithic category.</p>
+    </details>
   </li>
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span><br>
-    <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="https://www.dropbox.com/scl/fi/my48nb9vatqcqvtz3z5ic/beliefs_draft_june_2025.pdf?rlkey=j0nhrrgz6ijht8dbzgiqazx2e&st=ayth2cyt&dl=0" style="text-decoration:underline;">Extreme Weather and Risk Perception</a></span> <span class="paper-date">(June 2025)</span><br>
+    <span style="color: #444;">Bernstein and Tamer Centers’ Joint Doctoral Research Grant (2023)</span><br>
+    <details class="abstract" style="margin-top: 0.4rem;">
+      <summary style="cursor: pointer; color: #555; font-size: 0.9rem;">Abstract</summary>
+      <p style="font-size: 0.92rem; color: #444; line-height: 1.55; margin: 0.5rem 0 0 0;">This paper examines how investors differentially update their climate risk perceptions following extreme weather events. Studying registered investment advisers' portfolio allocations, I document a significant shift toward safer assets (government bonds) and away from risky assets (equity) following local extreme weather disasters. The magnitude of this portfolio reallocation varies systematically with political ideology, a proxy for heterogeneous prior beliefs about disaster risk. Democratic counties exhibit the most persistent risk-off behavior when directly experiencing disasters, particularly during first-time exposures compared to subsequent events. The updating of beliefs also occurs through social networks, with the strongest effects observed in swing counties, where prior beliefs about disaster probabilities are less firmly anchored. These findings complement the literature that suggests political ideology plays a crucial role in how investors process climate risk information, and provides novel insights on the strength of each step in the belief updating process.</p>
+    </details>
   </li>
 </ul>
 
@@ -44,6 +66,10 @@ layout: home
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
     <span style="font-size: 1rem;">Climate Risk Transfer?</span><br>
-    <span style="color: #444;">with Jack McCoy</span>
+    <span style="color: #444;">with Jack McCoy</span><br>
+    <details class="abstract" style="margin-top: 0.4rem;">
+      <summary style="cursor: pointer; color: #555; font-size: 0.9rem;">Abstract</summary>
+      <p style="font-size: 0.92rem; color: #444; line-height: 1.55; margin: 0.5rem 0 0 0;">Government-Sponsored Enterprises (GSEs) face concentrated climate risk exposure as a byproduct of their market role: high-growth housing markets in California, Florida, and Texas are among the most exposed to natural hazards. We study whether their existing credit risk transfer programs, through which GSEs share credit losses with private capital, reflect this exposure. Our findings inform ongoing debates about how climate risk in housing markets should be measured, managed, and allocated between public institutions and private capital.</p>
+    </details>
   </li>
 </ul>
