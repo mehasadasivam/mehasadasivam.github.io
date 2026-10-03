@@ -15,7 +15,7 @@ layout: home
   <div>
     <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Welcome! I am a PhD student in Finance at Columbia Business School. My research interests are in climate finance, public finance, investments and corporate finance.</div>
     <div style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1.2rem;">I am on the 2026-27 academic job market.</div>
-    <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Previously, I was a software engineer at DE Shaw. I hold an MS in Financial Economics from Columbia and a BE in Electrical Engineering from BITS Pilani, Hyderabad.</div>
+    <div style="font-size: 1.1rem; font-weight: 300; margin-bottom: 1.2rem;">Before the PhD, I worked as a software engineer at DE Shaw and completed an MS in Financial Economics at Columbia. I hold a BE in Electrical Engineering from BITS Pilani, Hyderabad.</div>
     <div style="display: flex; align-items: center; gap: 18px; font-size: 1rem;">
       <span>Email: <a href="mailto:ms5941@gsb.columbia.edu">ms5941@gsb.columbia.edu</a></span>
       {% if site.github_username %}
