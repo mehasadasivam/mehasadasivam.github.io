@@ -39,7 +39,7 @@ layout: home
 
 <ul style="margin-top: 2rem; margin-bottom: 2rem;">
   <li style="margin-bottom: 1.5rem;">
-    <span style="font-size: 1rem;">The Financing Limits of Local Adaptation</span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span><br>
+    <span style="font-weight: bold; font-size: 1rem;"><a href="files/financing_adaptation.pdf" target="_blank" rel="noopener" style="text-decoration: underline;">The Financing Limits of Local Adaptation</a></span> <span style="font-size: 1rem;  font-style: italic;">(Job Market Paper)</span><br>
     <details class="abstract" style="margin-top: 0.4rem;">
       <summary style="cursor: pointer; color: #555; font-size: 0.9rem;">Abstract</summary>
       <p style="font-size: 0.92rem; color: #444; line-height: 1.55; margin: 0.5rem 0 0 0;">What are the returns to investment in flood protection, and how does the financing structure shape its provision? Studying Louisiana's levee districts, I estimate a triple-differences regression using observations along the boundaries of districts that passed the levee tax. Property values inside the district rise about 32% on average, and increase by 3% per additional foot below the levee. The gains reflect demand for protection: occupancy increases more in high exposure areas. The tax burden is much smaller than these gains, but levee referenda often fail. A key financing friction is that uneven benefits and uniform taxes can cause the median voter to oppose aggregate improvements. I develop a spatial model with heterogeneous flood exposure and risk-reduction investments to quantify the welfare cost of this friction and evaluate the financing limits of local adaptation.</p>
