@@ -1,0 +1,75 @@
+---
+---
+
+@import "academic-minima";
+
+// Custom font styling
+body {
+  font-family: 'Georgia', serif; // Original font
+  scroll-behavior: smooth; // Enable smooth scrolling
+}
+
+// Profile picture styling
+.profile-picture {
+  border: 1px solid #ccc !important; // Thinner border
+  border-radius: 0 !important; // No rounded corners
+}
+
+// Add gap above the horizontal rule and working papers section
+hr, .working-papers-section {
+  margin-top: 2.5rem;
+}
+
+// Decrease font size for working papers heading and list
+.working-papers-section h3, .working-papers-section {
+  font-size: 1.1rem;
+}
+.working-papers-section ul, .working-papers-section li {
+  font-size: 1rem;
+}
+
+// Alternative fonts you can try:
+// font-family: 'Times New Roman', serif;
+// font-family: 'Arial', sans-serif;
+// font-family: 'Helvetica', sans-serif;
+// font-family: 'Palatino', serif;
+// font-family: 'Garamond', serif;
+// font-family: 'Baskerville', serif; 
+
+// Responsive adjustments for mobile devices
+.cv-download-link {
+  display: none;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 100% !important;
+    max-width: 260px;
+    height: auto !important;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  div[style*="display: flex"][style*="align-items: center"] {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    align-items: flex-start !important;
+  }
+
+  .cv-pdf-embed object[type="application/pdf"] {
+    display: none !important;
+  }
+  .cv-download-link {
+    display: block;
+  }
+
+  object[type="application/pdf"] {
+    width: 100% !important;
+    height: 70vh !important;
+    min-height: 400px;
+    max-width: 100vw;
+    display: block;
+  }
+} 
