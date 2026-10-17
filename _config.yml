@@ -1,0 +1,22 @@
+title: Meha Sadasivam
+author: Meha Sadasivam
+email: ms5941@gsb.columbia.edu
+description: >
+  Meha Sadasivam's personal website
+baseurl: ""
+github_username: mehasadasivam
+twitter_username: mehasadasivam
+linkedin_username: mehasadasivam
+profile_picture: images/profile.jpg
+institute_name: Columbia Business School
+institute_logo: ""
+institute_url: "https://www8.gsb.columbia.edu/"
+google_analytics: G-9GSZBXKNFD
+markdown: kramdown
+remote_theme: academicbio/academic-minima
+plugins:
+  - jekyll-remote-theme
+exclude:
+  - Gemfile
+  - Gemfile.lock 
+  - vendor 
